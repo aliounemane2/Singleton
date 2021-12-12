@@ -3,6 +3,7 @@ public class Singleton{
     
     private static Singleton uniqueInstance;
     
+    // Rendre privé le constructeur de la classe : Impossible d’instancier la classe
     private Singleton(){}
     
     // fournit un moyen d'instancier et d'en trouver une seule instance
